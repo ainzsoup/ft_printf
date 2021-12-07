@@ -6,7 +6,7 @@
 /*   By: sgamraou <sgamraou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/28 23:26:25 by sgamraou          #+#    #+#             */
-/*   Updated: 2021/11/30 17:06:14 by sgamraou         ###   ########.fr       */
+/*   Updated: 2021/12/07 03:41:06 by sgamraou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,3 +58,8 @@ int	ft_printf(const char *format, ...)
 	va_end(args);
 	return (len);
 }
+/*int main()
+{
+	ft_printf("%i  %d\n", 0xff, 0xff);
+	printf("%i  %d\n", 0xff, 0xff);
+}*/
